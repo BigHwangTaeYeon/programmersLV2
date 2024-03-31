@@ -1,0 +1,17 @@
+
+v
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞË´Ğ8íÊ«©é1
+E
+java:S1604&"(Make this anonymous inner class a lambda(ĞË´Ğ8„Ë«©é1
+7
+java:S1220""Move this file to a named package.8‰Ë«©é1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¬ÙÅŠ8‚Ì«©é1
+]	java:S125
+"<This block of commented-out lines of code should be removed.(”Àª÷ûÿÿÿÿ8¥Ì«©é1
+G	java:S1062"+Replace this use of System.out by a logger.(¿¿ûà8Î«©é1
+L	java:S1063"+Replace this use of System.out by a logger.(››îÂøÿÿÿÿ8£Î«©é1
+W	java:S125<"<This block of commented-out lines of code should be removed.(ï­ãR8øª¬©é1
+L	java:S106>"+Replace this use of System.out by a logger.(Â„µşÿÿÿÿ8úª¬©é1
+m
+java:S1858>"K"solution" is already a string, there's no need to call "toString()" on it.(Â„µşÿÿÿÿ8ıª¬©é1
