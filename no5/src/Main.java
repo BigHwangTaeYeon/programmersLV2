@@ -11,8 +11,6 @@ public class Main {class Solution {
         int countTrans = 0;
 
         loof: while (true) {
-            System.out.println("sList = " + sList.toString());
-
             for (int i = 0; i < sList.size(); i++) {
                 if ("0".equals(sList.get(i))) {
                     countZero++;
@@ -27,25 +25,14 @@ public class Main {class Solution {
             countTrans++;
             oneSize = 0;
 
-            boolean confirm = true;
-
-            for (String findZero : sList) {
-                if("0".equals(findZero)) {
-                    confirm = false;
-                }
-            }
-
-            if(confirm) {
+            if(sList.size() == 1) {
                 break loof;
             }
         }
-
-        System.out.println(countTrans);
-        System.out.println(countZero);
-        return answer;
+        return new int[] {countTrans, countZero};
     }
 }
     public static void main(String[] args) {
-        System.out.println(Solution.solution("01110"));
+        System.out.println(Solution.solution("1111111").toString());
     }
 }
